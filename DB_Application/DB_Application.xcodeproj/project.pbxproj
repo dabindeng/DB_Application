@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		289874361CC4864E007F815F /* AFNetApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 289874351CC4864E007F815F /* AFNetApiClient.m */; };
 		28D53CD91C8FCC1F002CFC68 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */; };
 		28D53CDA1C8FCC1F002CFC68 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCA1C8FCC1F002CFC68 /* NSString+Addition.m */; };
 		28D53CDB1C8FCC1F002CFC68 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCC1C8FCC1F002CFC68 /* UIAlertView+Addition.m */; };
@@ -27,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		289874321CC4836B007F815F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		289874331CC4848D007F815F /* API_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API_Header.h; sourceTree = "<group>"; };
+		289874341CC4864E007F815F /* AFNetApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetApiClient.h; sourceTree = "<group>"; };
+		289874351CC4864E007F815F /* AFNetApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetApiClient.m; sourceTree = "<group>"; };
 		28D53CC61C8FCC1F002CFC68 /* CategoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtil.h; sourceTree = "<group>"; };
 		28D53CC71C8FCC1F002CFC68 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
@@ -108,6 +113,10 @@
 		28D53CC01C8FC996002CFC68 /* HeaderFile */ = {
 			isa = PBXGroup;
 			children = (
+				289874321CC4836B007F815F /* Header.h */,
+				289874331CC4848D007F815F /* API_Header.h */,
+				289874341CC4864E007F815F /* AFNetApiClient.h */,
+				289874351CC4864E007F815F /* AFNetApiClient.m */,
 			);
 			path = HeaderFile;
 			sourceTree = "<group>";
@@ -344,6 +353,7 @@
 				28F00F261C87CCDD00708A1A /* DB_Application.xcdatamodeld in Sources */,
 				28D53CDE1C8FCC1F002CFC68 /* UIImage+Addition.m in Sources */,
 				28D53CDA1C8FCC1F002CFC68 /* NSString+Addition.m in Sources */,
+				289874361CC4864E007F815F /* AFNetApiClient.m in Sources */,
 				28D53CD91C8FCC1F002CFC68 /* NSDate+Helper.m in Sources */,
 				28F00F201C87CCDD00708A1A /* ViewController.m in Sources */,
 				28F00F1D1C87CCDD00708A1A /* AppDelegate.m in Sources */,
@@ -461,6 +471,10 @@
 			baseConfigurationReference = C8A934A9A1E980DFDD4D5180 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DB_Application/Libs",
+				);
 				INFOPLIST_FILE = DB_Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.DB-Application";
@@ -473,6 +487,10 @@
 			baseConfigurationReference = BD4BECA99135BC83657C154B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DB_Application/Libs",
+				);
 				INFOPLIST_FILE = DB_Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.DB-Application";

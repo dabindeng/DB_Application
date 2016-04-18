@@ -7,18 +7,9 @@
 //
 
 #import "SharePublicMethod.h"
-#import "sys/utsname.h"
-
-
-#include <sys/socket.h> //MAC
-#include <sys/sysctl.h>
 #include <sys/stat.h>
-#include <net/if.h>
-#include <net/if_dl.h>
 
-#define NSMaxiumRange         ((NSRange){.location=                   0UL, .length=    NSUIntegerMax})
 
-struct utsname systemInfo;
 
 @implementation SharePublicMethod
 

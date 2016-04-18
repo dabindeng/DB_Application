@@ -1,28 +1,22 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - FMDB (2.6):
-    - FMDB/standard (= 2.6)
-  - FMDB/standard (2.6)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
@@ -39,28 +33,28 @@ PODS:
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - ViewUtils (1.1.2)
-  - YYModel (1.0.1)
+  - YYModel (1.0.3)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5)
-  - FMDB
-  - MagicalRecord (~> 2.3.0)
-  - Masonry
-  - ReactiveCocoa
-  - RegexKitLite
-  - SDWebImage (~> 3.7.3)
+  - AFNetworking (~> 3.0.4)
+  - FMDB (~> 2.6)
+  - MagicalRecord (~> 2.3.2)
+  - Masonry (~> 0.6.4)
+  - ReactiveCocoa (~> 2.5)
+  - RegexKitLite (~> 4.0)
+  - SDWebImage (~> 3.7.5)
   - ViewUtils (~> 1.1.2)
-  - YYModel
+  - YYModel (~> 1.0.3)
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   ViewUtils: 68e42c708a4b3912e39691cef5080282dc5013fb
-  YYModel: 794f0820a9a9703615bc166aa8e336abaf422c2b
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
 
 COCOAPODS: 0.39.0
