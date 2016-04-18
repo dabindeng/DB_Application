@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		289874361CC4864E007F815F /* AFNetApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 289874351CC4864E007F815F /* AFNetApiClient.m */; };
+		289874391CC4DFB9007F815F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289874381CC4DFB9007F815F /* BaseViewController.m */; };
 		28D53CD91C8FCC1F002CFC68 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */; };
 		28D53CDA1C8FCC1F002CFC68 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCA1C8FCC1F002CFC68 /* NSString+Addition.m */; };
 		28D53CDB1C8FCC1F002CFC68 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCC1C8FCC1F002CFC68 /* UIAlertView+Addition.m */; };
@@ -32,6 +33,8 @@
 		289874331CC4848D007F815F /* API_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API_Header.h; sourceTree = "<group>"; };
 		289874341CC4864E007F815F /* AFNetApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetApiClient.h; sourceTree = "<group>"; };
 		289874351CC4864E007F815F /* AFNetApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetApiClient.m; sourceTree = "<group>"; };
+		289874371CC4DFB9007F815F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		289874381CC4DFB9007F815F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		28D53CC61C8FCC1F002CFC68 /* CategoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtil.h; sourceTree = "<group>"; };
 		28D53CC71C8FCC1F002CFC68 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				289874331CC4848D007F815F /* API_Header.h */,
 				289874341CC4864E007F815F /* AFNetApiClient.h */,
 				289874351CC4864E007F815F /* AFNetApiClient.m */,
+				289874371CC4DFB9007F815F /* BaseViewController.h */,
+				289874381CC4DFB9007F815F /* BaseViewController.m */,
 			);
 			path = HeaderFile;
 			sourceTree = "<group>";
@@ -348,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D53CDD1C8FCC1F002CFC68 /* UIColor+Addition.m in Sources */,
+				289874391CC4DFB9007F815F /* BaseViewController.m in Sources */,
 				28D53CDB1C8FCC1F002CFC68 /* UIAlertView+Addition.m in Sources */,
 				28D53CE01C8FCC1F002CFC68 /* UILabel+Addition.m in Sources */,
 				28F00F261C87CCDD00708A1A /* DB_Application.xcdatamodeld in Sources */,
