@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		289874411CC4E385007F815F /* AFNetApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2898743C1CC4E385007F815F /* AFNetApiClient.m */; };
 		289874421CC4E385007F815F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2898743F1CC4E385007F815F /* BaseViewController.m */; };
+		28BF92DA1D586D8E00CE15D3 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92D51D586D8E00CE15D3 /* RootViewController.mm */; };
+		28BF92DB1D586D8E00CE15D3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF92D61D586D8E00CE15D3 /* RootViewController.xib */; };
+		28BF92DC1D586D8E00CE15D3 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92D81D586D8E00CE15D3 /* WebViewController.m */; };
+		28BF92DD1D586D8E00CE15D3 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF92D91D586D8E00CE15D3 /* WebViewController.xib */; };
+		28BF92E71D586DE300CE15D3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92E01D586DE300CE15D3 /* WebViewJavascriptBridge.m */; };
+		28BF92E81D586DE300CE15D3 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92E21D586DE300CE15D3 /* WebViewJavascriptBridge_JS.m */; };
+		28BF92E91D586DE300CE15D3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92E41D586DE300CE15D3 /* WebViewJavascriptBridgeBase.m */; };
+		28BF92EA1D586DE300CE15D3 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF92E61D586DE300CE15D3 /* WKWebViewJavascriptBridge.m */; };
+		28CC88791D7E63D200F75F72 /* WKWebViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC88771D7E63D200F75F72 /* WKWebViewTestViewController.m */; };
+		28CC887A1D7E63D200F75F72 /* WKWebViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CC88781D7E63D200F75F72 /* WKWebViewTestViewController.xib */; };
+		28CC88801D7E6C7E00F75F72 /* html.html in Resources */ = {isa = PBXBuildFile; fileRef = 28CC887F1D7E6C7E00F75F72 /* html.html */; };
 		28D53CD91C8FCC1F002CFC68 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */; };
 		28D53CDA1C8FCC1F002CFC68 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCA1C8FCC1F002CFC68 /* NSString+Addition.m */; };
 		28D53CDB1C8FCC1F002CFC68 /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CCC1C8FCC1F002CFC68 /* UIAlertView+Addition.m */; };
@@ -18,6 +29,9 @@
 		28D53CDF1C8FCC1F002CFC68 /* UIImageView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CD41C8FCC1F002CFC68 /* UIImageView+Addition.m */; };
 		28D53CE01C8FCC1F002CFC68 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CD61C8FCC1F002CFC68 /* UILabel+Addition.m */; };
 		28D53CE41C8FCD9B002CFC68 /* SharePublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D53CE31C8FCD9B002CFC68 /* SharePublicMethod.m */; };
+		28E415851D59A8B300B818DB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E415811D59A8B300B818DB /* SVIndefiniteAnimatedView.m */; };
+		28E415861D59A8B300B818DB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E415821D59A8B300B818DB /* SVProgressHUD.bundle */; };
+		28E415871D59A8B300B818DB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E415841D59A8B300B818DB /* SVProgressHUD.m */; };
 		28F00F1A1C87CCDD00708A1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F00F191C87CCDD00708A1A /* main.m */; };
 		28F00F1D1C87CCDD00708A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F00F1C1C87CCDD00708A1A /* AppDelegate.m */; };
 		28F00F201C87CCDD00708A1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F00F1F1C87CCDD00708A1A /* ViewController.m */; };
@@ -25,6 +39,7 @@
 		28F00F261C87CCDD00708A1A /* DB_Application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28F00F241C87CCDD00708A1A /* DB_Application.xcdatamodeld */; };
 		28F00F281C87CCDD00708A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F00F271C87CCDD00708A1A /* Assets.xcassets */; };
 		28F00F2B1C87CCDD00708A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F00F291C87CCDD00708A1A /* LaunchScreen.storyboard */; };
+		28F7BBFF1D5B16620016E43E /* ImagePickerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28F7BBFD1D5B16620016E43E /* ImagePickerViewController.mm */; };
 		3EDBDEC4655BB07D9542AE41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E214B026867C44FCF681B2CD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +50,24 @@
 		2898743E1CC4E385007F815F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		2898743F1CC4E385007F815F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		289874401CC4E385007F815F /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		28BF92D41D586D8E00CE15D3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28BF92D51D586D8E00CE15D3 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		28BF92D61D586D8E00CE15D3 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28BF92D71D586D8E00CE15D3 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		28BF92D81D586D8E00CE15D3 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		28BF92D91D586D8E00CE15D3 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		28BF92DF1D586DE300CE15D3 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		28BF92E01D586DE300CE15D3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		28BF92E11D586DE300CE15D3 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		28BF92E21D586DE300CE15D3 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		28BF92E31D586DE300CE15D3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		28BF92E41D586DE300CE15D3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		28BF92E51D586DE300CE15D3 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		28BF92E61D586DE300CE15D3 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		28CC88761D7E63D200F75F72 /* WKWebViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTestViewController.h; sourceTree = "<group>"; };
+		28CC88771D7E63D200F75F72 /* WKWebViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestViewController.m; sourceTree = "<group>"; };
+		28CC88781D7E63D200F75F72 /* WKWebViewTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewTestViewController.xib; sourceTree = "<group>"; };
+		28CC887F1D7E6C7E00F75F72 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
 		28D53CC61C8FCC1F002CFC68 /* CategoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtil.h; sourceTree = "<group>"; };
 		28D53CC71C8FCC1F002CFC68 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		28D53CC81C8FCC1F002CFC68 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
@@ -54,6 +87,11 @@
 		28D53CD61C8FCC1F002CFC68 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
 		28D53CE21C8FCD9B002CFC68 /* SharePublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharePublicMethod.h; sourceTree = "<group>"; };
 		28D53CE31C8FCD9B002CFC68 /* SharePublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharePublicMethod.m; sourceTree = "<group>"; };
+		28E415801D59A8B300B818DB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		28E415811D59A8B300B818DB /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		28E415821D59A8B300B818DB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		28E415831D59A8B300B818DB /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		28E415841D59A8B300B818DB /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		28F00F151C87CCDD00708A1A /* DB_Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DB_Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F00F191C87CCDD00708A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28F00F1B1C87CCDD00708A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +103,8 @@
 		28F00F271C87CCDD00708A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F00F2A1C87CCDD00708A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F00F2C1C87CCDD00708A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F7BBFD1D5B16620016E43E /* ImagePickerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImagePickerViewController.mm; sourceTree = "<group>"; };
+		28F7BBFE1D5B16620016E43E /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
 		BD4BECA99135BC83657C154B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C8A934A9A1E980DFDD4D5180 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E214B026867C44FCF681B2CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +153,48 @@
 			path = Libs/BaseFile;
 			sourceTree = "<group>";
 		};
+		28BF92D31D586D8E00CE15D3 /* UPayTest */ = {
+			isa = PBXGroup;
+			children = (
+				28F7BBFD1D5B16620016E43E /* ImagePickerViewController.mm */,
+				28F7BBFE1D5B16620016E43E /* ImagePickerViewController.h */,
+				28BF92DE1D586DE300CE15D3 /* WebViewJavascriptBridge */,
+				28BF92D41D586D8E00CE15D3 /* RootViewController.h */,
+				28BF92D51D586D8E00CE15D3 /* RootViewController.mm */,
+				28BF92D61D586D8E00CE15D3 /* RootViewController.xib */,
+				28BF92D71D586D8E00CE15D3 /* WebViewController.h */,
+				28BF92D81D586D8E00CE15D3 /* WebViewController.m */,
+				28BF92D91D586D8E00CE15D3 /* WebViewController.xib */,
+			);
+			path = UPayTest;
+			sourceTree = "<group>";
+		};
+		28BF92DE1D586DE300CE15D3 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				28BF92DF1D586DE300CE15D3 /* WebViewJavascriptBridge.h */,
+				28BF92E01D586DE300CE15D3 /* WebViewJavascriptBridge.m */,
+				28BF92E11D586DE300CE15D3 /* WebViewJavascriptBridge_JS.h */,
+				28BF92E21D586DE300CE15D3 /* WebViewJavascriptBridge_JS.m */,
+				28BF92E31D586DE300CE15D3 /* WebViewJavascriptBridgeBase.h */,
+				28BF92E41D586DE300CE15D3 /* WebViewJavascriptBridgeBase.m */,
+				28BF92E51D586DE300CE15D3 /* WKWebViewJavascriptBridge.h */,
+				28BF92E61D586DE300CE15D3 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		28CC88751D7E63A200F75F72 /* WKWebViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				28CC887F1D7E6C7E00F75F72 /* html.html */,
+				28CC88761D7E63D200F75F72 /* WKWebViewTestViewController.h */,
+				28CC88771D7E63D200F75F72 /* WKWebViewTestViewController.m */,
+				28CC88781D7E63D200F75F72 /* WKWebViewTestViewController.xib */,
+			);
+			path = WKWebViewTest;
+			sourceTree = "<group>";
+		};
 		28D53CBE1C8FC996002CFC68 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +212,7 @@
 		28D53CC11C8FC996002CFC68 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				28E4157F1D59A8B300B818DB /* SVProgressHUD */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -181,6 +264,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		28E4157F1D59A8B300B818DB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				28E415801D59A8B300B818DB /* SVIndefiniteAnimatedView.h */,
+				28E415811D59A8B300B818DB /* SVIndefiniteAnimatedView.m */,
+				28E415821D59A8B300B818DB /* SVProgressHUD.bundle */,
+				28E415831D59A8B300B818DB /* SVProgressHUD.h */,
+				28E415841D59A8B300B818DB /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		28F00F0C1C87CCDD00708A1A = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +297,8 @@
 		28F00F171C87CCDD00708A1A /* DB_Application */ = {
 			isa = PBXGroup;
 			children = (
+				28CC88751D7E63A200F75F72 /* WKWebViewTest */,
+				28BF92D31D586D8E00CE15D3 /* UPayTest */,
 				28D53CC21C8FC996002CFC68 /* Models */,
 				28D53CC51C8FC996002CFC68 /* Views */,
 				28D53CBE1C8FC996002CFC68 /* Controllers */,
@@ -266,6 +363,8 @@
 				TargetAttributes = {
 					28F00F141C87CCDD00708A1A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MCD2K9S9H7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -292,8 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CC887A1D7E63D200F75F72 /* WKWebViewTestViewController.xib in Resources */,
+				28CC88801D7E6C7E00F75F72 /* html.html in Resources */,
 				28F00F2B1C87CCDD00708A1A /* LaunchScreen.storyboard in Resources */,
+				28E415861D59A8B300B818DB /* SVProgressHUD.bundle in Resources */,
 				28F00F281C87CCDD00708A1A /* Assets.xcassets in Resources */,
+				28BF92DB1D586D8E00CE15D3 /* RootViewController.xib in Resources */,
+				28BF92DD1D586D8E00CE15D3 /* WebViewController.xib in Resources */,
 				28F00F231C87CCDD00708A1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,12 +458,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D53CDD1C8FCC1F002CFC68 /* UIColor+Addition.m in Sources */,
+				28BF92E71D586DE300CE15D3 /* WebViewJavascriptBridge.m in Sources */,
 				289874421CC4E385007F815F /* BaseViewController.m in Sources */,
+				28BF92DA1D586D8E00CE15D3 /* RootViewController.mm in Sources */,
+				28BF92E91D586DE300CE15D3 /* WebViewJavascriptBridgeBase.m in Sources */,
+				28BF92E81D586DE300CE15D3 /* WebViewJavascriptBridge_JS.m in Sources */,
 				28D53CDB1C8FCC1F002CFC68 /* UIAlertView+Addition.m in Sources */,
 				28D53CE01C8FCC1F002CFC68 /* UILabel+Addition.m in Sources */,
 				28F00F261C87CCDD00708A1A /* DB_Application.xcdatamodeld in Sources */,
+				28E415851D59A8B300B818DB /* SVIndefiniteAnimatedView.m in Sources */,
+				28E415871D59A8B300B818DB /* SVProgressHUD.m in Sources */,
 				28D53CDE1C8FCC1F002CFC68 /* UIImage+Addition.m in Sources */,
+				28F7BBFF1D5B16620016E43E /* ImagePickerViewController.mm in Sources */,
 				28D53CDA1C8FCC1F002CFC68 /* NSString+Addition.m in Sources */,
+				28BF92DC1D586D8E00CE15D3 /* WebViewController.m in Sources */,
 				289874411CC4E385007F815F /* AFNetApiClient.m in Sources */,
 				28D53CD91C8FCC1F002CFC68 /* NSDate+Helper.m in Sources */,
 				28F00F201C87CCDD00708A1A /* ViewController.m in Sources */,
@@ -368,6 +480,8 @@
 				28D53CE41C8FCD9B002CFC68 /* SharePublicMethod.m in Sources */,
 				28D53CDC1C8FCC1F002CFC68 /* UIButton+Addition.m in Sources */,
 				28D53CDF1C8FCC1F002CFC68 /* UIImageView+Addition.m in Sources */,
+				28CC88791D7E63D200F75F72 /* WKWebViewTestViewController.m in Sources */,
+				28BF92EA1D586DE300CE15D3 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,14 +592,20 @@
 			baseConfigurationReference = C8A934A9A1E980DFDD4D5180 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MCD2K9S9H7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DB_Application/Libs",
 				);
 				INFOPLIST_FILE = DB_Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.DB-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epweike.i;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -494,14 +614,20 @@
 			baseConfigurationReference = BD4BECA99135BC83657C154B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MCD2K9S9H7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DB_Application/Libs",
 				);
 				INFOPLIST_FILE = DB_Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.DB-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epweike.i;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

@@ -41,4 +41,19 @@ typedef void (^UploadProgress)(int64_t bytesWritten,
 //任务大厅 任务列表
 - (void)requestTaskListWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
 
+//认证
+- (void)requestAuthWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
+
+//充值
+- (void)requestChargeWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
+
+//转账
+- (void)requestPayWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
+
+//提现
+- (void)requestTakeMoneyWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
+
+//授权
+- (void)requestAuthorizationWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure;
+
 @end

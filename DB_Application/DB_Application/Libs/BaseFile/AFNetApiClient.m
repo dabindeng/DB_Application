@@ -295,6 +295,59 @@
     }];
 }
 
+//认证
+- (void)requestAuthWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure
+{
+    [self postWithPath:kAPIAuth parameters:params success:^(id dataDict, int status, NSString *msg) {
+        success(dataDict, status, msg);
+    } failure:^(id dataDict, int status, NSString *msg) {
+        failure(dataDict, status, msg);
+    }];
+}
+
+//充值
+- (void)requestChargeWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure
+{
+    [self postWithPath:kAPICharge parameters:params success:^(id dataDict, int status, NSString *msg) {
+        success(dataDict, status, msg);
+    } failure:^(id dataDict, int status, NSString *msg) {
+        failure(dataDict, status, msg);
+    }];
+}
+
+//转账
+- (void)requestPayWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure
+{
+    [self postWithPath:kAPIPay parameters:params success:^(id dataDict, int status, NSString *msg) {
+        success(dataDict, status, msg);
+    } failure:^(id dataDict, int status, NSString *msg) {
+        failure(dataDict, status, msg);
+    }];
+}
+
+//提现
+- (void)requestTakeMoneyWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure
+{
+    [self postWithPath:kAPITakeMoney parameters:params success:^(id dataDict, int status, NSString *msg) {
+        success(dataDict, status, msg);
+    } failure:^(id dataDict, int status, NSString *msg) {
+        failure(dataDict, status, msg);
+    }];
+}
+
+
+//授权
+- (void)requestAuthorizationWithParams:(NSDictionary *)params success:(RequestSuccess)success failure:(RequestFailure)failure
+{
+    [self postWithPath:kAPIAuthorization parameters:params success:^(id dataDict, int status, NSString *msg) {
+        success(dataDict, status, msg);
+    } failure:^(id dataDict, int status, NSString *msg) {
+        failure(dataDict, status, msg);
+    }];
+}
+
+
+
 
 
 

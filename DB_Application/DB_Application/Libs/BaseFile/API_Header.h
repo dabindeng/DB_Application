@@ -18,13 +18,25 @@
 //#define kAPIBASEURL  ((AppDelegate *)[UIApplication sharedApplication].delegate).apiUrl
 //#define EncodeKey   ((AppDelegate *)[UIApplication sharedApplication].delegate).codeKey
 
-#define kAPIBASEURL @""
+#define kAPIBASEURL @"http://app2.api.epweike.net"
 
 //extern NSString *ApiUrl;
 //extern NSString *codeKey;
 
 //人才大厅
 #define kAPITalentList    @"/m.php?do=talent&view=list"
+
+#define kAPIRegister   @"/m.php?do=merchatpay&view=register&getUrl=1&uid=1519430&mobile=18888888688"
+
+#define kAPIAuth  @"/m.php?do=merchatpay&view=authen_name&user_id=1512&real_name=XXX&card_no=XXX&bank_card=6222023410001253000"
+
+#define kAPICharge @"/m.php?do=merchatpay&view=recharge&getUrl=1"
+
+#define kAPIPay @"/m.php?do=merchatpay&view=pay&getUrl=1"
+
+#define kAPITakeMoney @"/m.php?do=merchatpay&view=withdraw"
+
+#define kAPIAuthorization @"/m.php?do=merchatpay&view=accredit"
 
 
 #endif /* API_Header_h */
